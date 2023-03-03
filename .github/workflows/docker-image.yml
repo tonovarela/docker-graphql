@@ -29,7 +29,7 @@ jobs:
         
     - name:  Build docker image
       run: |
-         docker build -t tonovarela/docker-graphql:0.0.1 .
+         docker build -t tonovarela/docker-graphql:0.0.2 .
     - name:  Push docker image
       run: |
          docker push tonovarela/docker-graphql:0.0.2   
